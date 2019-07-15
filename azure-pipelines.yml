@@ -11,6 +11,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  imageName: 'hassaanch/webapp:$(build.buildNumber)'
 
 steps:
 - task: Docker@1
